@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Character = (props) => {
     const { info } = props;
     return (
-        <p>{info}</p>
+        <h2>{info.name}</h2>
     )
 }
 
